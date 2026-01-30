@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|c:\\users\\khatr\\source\\repos\\group_project_quan_ly_khach_san\\group_project_quan_ly_khach_san\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|solutionrelative:group_project_quan_ly_khach_san\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Group_Project_Quan_Ly_Khach_San\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Group_Project_Quan_Ly_Khach_San\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T13:26:21.932Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
