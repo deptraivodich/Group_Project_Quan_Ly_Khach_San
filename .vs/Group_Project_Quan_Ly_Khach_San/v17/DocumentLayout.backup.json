@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|c:\\users\\khatr\\source\\repos\\group_project_quan_ly_khach_san\\group_project_quan_ly_khach_san\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|solutionrelative:group_project_quan_ly_khach_san\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|c:\\users\\khatr\\source\\repos\\group_project_quan_ly_khach_san\\group_project_quan_ly_khach_san\\dat_phong\\datphong.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|solutionrelative:group_project_quan_ly_khach_san\\dat_phong\\datphong.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|c:\\users\\khatr\\source\\repos\\group_project_quan_ly_khach_san\\group_project_quan_ly_khach_san\\dat_phong\\danhsachdatphong.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|solutionrelative:group_project_quan_ly_khach_san\\dat_phong\\danhsachdatphong.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|c:\\users\\khatr\\source\\repos\\group_project_quan_ly_khach_san\\group_project_quan_ly_khach_san\\dat_phong\\datphongviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|solutionrelative:group_project_quan_ly_khach_san\\dat_phong\\datphongviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|c:\\users\\khatr\\source\\repos\\group_project_quan_ly_khach_san\\group_project_quan_ly_khach_san\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|solutionrelative:group_project_quan_ly_khach_san\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|c:\\users\\khatr\\source\\repos\\group_project_quan_ly_khach_san\\group_project_quan_ly_khach_san\\dat_phong\\datphong.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|solutionrelative:group_project_quan_ly_khach_san\\dat_phong\\datphong.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|c:\\users\\khatr\\source\\repos\\group_project_quan_ly_khach_san\\group_project_quan_ly_khach_san\\dat_phong\\danhsachdatphong.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|solutionrelative:group_project_quan_ly_khach_san\\dat_phong\\danhsachdatphong.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|c:\\users\\khatr\\source\\repos\\group_project_quan_ly_khach_san\\group_project_quan_ly_khach_san\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A4339067-A821-420A-8080-9096669C31DE}|Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San.csproj|solutionrelative:group_project_quan_ly_khach_san\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\App.xaml",
+              "RelativeDocumentMoniker": "Group_Project_Quan_Ly_Khach_San\\App.xaml",
+              "ToolTip": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\App.xaml",
+              "RelativeToolTip": "Group_Project_Quan_Ly_Khach_San\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-18T06:53:35.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DanhSachDatPhong.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DanhSachDatPhong.xaml.cs",
+              "RelativeDocumentMoniker": "Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DanhSachDatPhong.xaml.cs",
+              "ToolTip": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DanhSachDatPhong.xaml.cs",
+              "RelativeToolTip": "Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DanhSachDatPhong.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T05:04:50.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DanhSachDatPhong.xaml",
+              "DocumentMoniker": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DanhSachDatPhong.xaml",
+              "RelativeDocumentMoniker": "Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DanhSachDatPhong.xaml",
+              "ToolTip": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DanhSachDatPhong.xaml",
+              "RelativeToolTip": "Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DanhSachDatPhong.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-18T05:01:29.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatPhongViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DatPhongViewModel.cs",
+              "RelativeDocumentMoniker": "Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DatPhongViewModel.cs",
+              "ToolTip": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DatPhongViewModel.cs*",
+              "RelativeToolTip": "Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DatPhongViewModel.cs*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T09:30:21.422Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Group_Project_Quan_Ly_Khach_San\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Group_Project_Quan_Ly_Khach_San\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T13:26:21.932Z",
+              "Title": "DatPhong.xaml",
+              "DocumentMoniker": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DatPhong.xaml",
+              "RelativeDocumentMoniker": "Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DatPhong.xaml",
+              "ToolTip": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DatPhong.xaml",
+              "RelativeToolTip": "Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DatPhong.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-01T09:27:53.655Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatPhong.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DatPhong.xaml.cs",
+              "RelativeDocumentMoniker": "Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DatPhong.xaml.cs",
+              "ToolTip": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DatPhong.xaml.cs",
+              "RelativeToolTip": "Group_Project_Quan_Ly_Khach_San\\Dat_Phong\\DatPhong.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T09:29:11.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Group_Project_Quan_Ly_Khach_San\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\khatr\\source\\repos\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San\\MainWindow.xaml",
+              "RelativeToolTip": "Group_Project_Quan_Ly_Khach_San\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-01T09:28:57.544Z"
             }
           ]
         }
