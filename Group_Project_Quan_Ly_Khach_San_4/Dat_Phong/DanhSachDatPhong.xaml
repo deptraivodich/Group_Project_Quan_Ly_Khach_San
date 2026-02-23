@@ -1,0 +1,112 @@
+﻿<Window x:Class="Group_Project_Quan_Ly_Khach_San_Nhom4.Dat_Phong.DanhSachDatPhong"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Group_Project_Quan_Ly_Khach_San_Nhom4.Dat_Phong"
+        mc:Ignorable="d"
+        Title="DanhSachDatPhong" Height="450" Width="800">
+    <Grid>
+        <!-- BACKGROUND -->
+        <Image Source="pack://application:,,,/Dat_Phong/hotel.jpg"
+           Stretch="UniformToFill"/>
+
+        <!-- OVERLAY -->
+        <Border Background="#66000000"/>
+
+        <!-- CONTENT -->
+        <Grid Margin="40">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- HEADER -->
+            <Grid Margin="0,0,0,16">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="DANH SÁCH ĐẶT PHÒNG"
+                       FontSize="26"
+                       FontWeight="Bold"
+                       Foreground="White"
+                       VerticalAlignment="Center"/>
+
+                <Button Grid.Column="1"
+                    Content="← Quay lại"
+                    Padding="16,8"
+                    Click="Back_Click"/>
+            </Grid>
+
+            <!-- TABLE -->
+            <Border Grid.Row="1"
+            Background="#18FFFFFF"
+            CornerRadius="16"
+            Padding="16">
+
+                <Border.Effect>
+                    <DropShadowEffect
+                    BlurRadius="25"
+                    ShadowDepth="0"
+                    Opacity="0.35"/>
+                </Border.Effect>
+
+                <DataGrid ItemsSource="{Binding Bookings}"
+                AutoGenerateColumns="False"
+                CanUserAddRows="False"
+                Background="Transparent"
+                RowBackground="Transparent"
+                AlternatingRowBackground="#12FFFFFF"
+                BorderThickness="0"
+                GridLinesVisibility="None"
+                Foreground="White">
+
+                    <DataGrid.ColumnHeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                        <GradientStop Color="#55000000" Offset="0"/>
+                                        <GradientStop Color="#22000000" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="Foreground" Value="White"/>
+                            <Setter Property="FontWeight" Value="SemiBold"/>
+                            <Setter Property="Padding" Value="12"/>
+                            <Setter Property="BorderThickness" Value="0"/>
+                        </Style>
+                    </DataGrid.ColumnHeaderStyle>
+
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Khách"
+                            Binding="{Binding CustomerName}"
+                            Width="*"/>
+
+                        <DataGridTextColumn Header="Phòng"
+                            Binding="{Binding RoomType}"
+                            Width="Auto"/>
+
+                        <DataGridTextColumn Header="Nhận"
+                            Binding="{Binding CheckIn, StringFormat=d}"
+                            Width="Auto"/>
+
+                        <DataGridTextColumn Header="Trả"
+                            Binding="{Binding CheckOut, StringFormat=d}"
+                            Width="Auto"/>
+
+                        <DataGridTextColumn Header="Đêm"
+                            Binding="{Binding Nights}"
+                            Width="Auto"/>
+
+                        <DataGridTextColumn Header="Tổng"
+                            Binding="{Binding TotalPrice, StringFormat=N0}"
+                            Width="Auto"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
