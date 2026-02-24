@@ -1,0 +1,84 @@
+﻿<Window x:Class="WpfApp1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Quản Lý Lễ Tân" Height="600" Width="1000" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Background="#2C3E50">
+            <TextBlock Text="HỆ THỐNG LỄ TÂN" Foreground="White" FontSize="20" FontWeight="Bold" Margin="0,30,0,40" HorizontalAlignment="Center"/>
+
+            <Button Content="Sơ đồ Phòng" Height="50" Margin="10,5" Background="#34495E" Foreground="White" BorderThickness="0"/>
+            <Button Content="Đặt Phòng" Height="50" Margin="10,5" Background="Transparent" Foreground="White" BorderThickness="0" Click="BtnDatPhong_Click"/>
+            <Button Content="Thanh Toán" Height="50" Margin="10,5" Background="Transparent" Foreground="White" BorderThickness="0" Click="BtnThanhToan_Click"/>
+
+            <Separator Margin="15,20" Background="#7F8C8D"/>
+            <Button Content="Đăng xuất" Height="45" Margin="15,5" Background="#E74C3C" Foreground="White" BorderThickness="0" Click="BtnDangXuat_Click"/>
+        </StackPanel>
+
+        <Grid Grid.Column="1" Background="#F5F6FA">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Background="White" Padding="20" CornerRadius="0,0,10,10" Margin="0,0,0,10">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Sơ đồ Phòng" FontSize="22" FontWeight="Bold" VerticalAlignment="Center"/>
+                    <StackPanel Orientation="Horizontal" Margin="40,0,0,0" VerticalAlignment="Center">
+                        <Rectangle Width="12" Height="12" Fill="#2ECC71" Margin="15,0,5,0"/>
+                        <TextBlock Text="Trống"/>
+                        <Rectangle Width="12" Height="12" Fill="#F1C40F" Margin="15,0,5,0"/>
+                        <TextBlock Text="Đã đặt"/>
+                        <Rectangle Width="12" Height="12" Fill="#E74C3C" Margin="15,0,5,0"/>
+                        <TextBlock Text="Đang dùng"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <ScrollViewer Grid.Row="1" Margin="10" VerticalScrollBarVisibility="Auto">
+                <ItemsControl Name="RoomList">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel Orientation="Horizontal" HorizontalAlignment="Left"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button Width="130" Height="110" Margin="8" Background="{Binding BackgroundColor}" 
+                                    Click="BtnRoom_Click" Foreground="White" Cursor="Hand" BorderThickness="0">
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="8"/>
+                                    </Style>
+                                </Button.Resources>
+                                <StackPanel>
+                                    <TextBlock Text="{Binding RoomName}" FontWeight="Bold" FontSize="16" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{Binding StatusText}" FontSize="10" Opacity="0.8" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{Binding CustomerName}" FontSize="12" Margin="0,8,0,0" HorizontalAlignment="Center" FontStyle="Italic"/>
+                                </StackPanel>
+                            </Button>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+
+            <Grid Name="ActionOverlay" Grid.RowSpan="2" Background="#99000000" Visibility="Collapsed">
+                <Border Background="White" Width="320" VerticalAlignment="Center" HorizontalAlignment="Center" CornerRadius="15" Padding="25">
+                    <StackPanel>
+                        <TextBlock Name="txtRoomTitle" Text="Bàn 01" FontSize="20" FontWeight="Bold" Margin="0,0,0,15" Foreground="#2C3E50"/>
+                        <TextBlock Text="Tên khách hàng" Margin="0,0,0,5" Foreground="#7F8C8D"/>
+                        <TextBox Name="txtInputCustomer" Margin="0,0,0,20" Height="35" VerticalContentAlignment="Center" Padding="5"/>
+
+                        <Button Name="btnConfirmCheckIn" Content="XÁC NHẬN VÀO BÀN" Background="#27AE60" Foreground="White" Height="40" FontWeight="Bold" Margin="0,5" Click="BtnConfirmCheckIn_Click"/>
+                        <Button Name="btnConfirmCheckOut" Content="TRẢ BÀN / THANH TOÁN" Background="#C0392B" Foreground="White" Height="40" FontWeight="Bold" Margin="0,5" Click="BtnConfirmCheckOut_Click"/>
+                        <Button Content="Đóng" Background="Transparent" Foreground="#7F8C8D" Height="30" Margin="0,10,0,0" Click="BtnCancel_Click" BorderThickness="0"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
