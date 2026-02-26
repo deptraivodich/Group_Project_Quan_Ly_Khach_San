@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B805DEAA-CF9C-40F5-A5E8-CE9C36021299}|Group_Project_Quan_Ly_Khach_San_4\\Group_Project_Quan_Ly_Khach_San_Nhom4.csproj|c:\\all project\\group_project_quan_ly_khach_san\\group_project_quan_ly_khach_san_4\\phong\\chitietkhachsanview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B805DEAA-CF9C-40F5-A5E8-CE9C36021299}|Group_Project_Quan_Ly_Khach_San_4\\Group_Project_Quan_Ly_Khach_San_Nhom4.csproj|solutionrelative:group_project_quan_ly_khach_san_4\\phong\\chitietkhachsanview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B805DEAA-CF9C-40F5-A5E8-CE9C36021299}|Group_Project_Quan_Ly_Khach_San_4\\Group_Project_Quan_Ly_Khach_San_Nhom4.csproj|C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\group_project_quan_ly_khach_san_4\\phong\\dsphongview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B805DEAA-CF9C-40F5-A5E8-CE9C36021299}|Group_Project_Quan_Ly_Khach_San_4\\Group_Project_Quan_Ly_Khach_San_Nhom4.csproj|solutionrelative:group_project_quan_ly_khach_san_4\\phong\\dsphongview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B805DEAA-CF9C-40F5-A5E8-CE9C36021299}|Group_Project_Quan_Ly_Khach_San_4\\Group_Project_Quan_Ly_Khach_San_Nhom4.csproj|C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\group_project_quan_ly_khach_san_4\\phong\\dsphongview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B805DEAA-CF9C-40F5-A5E8-CE9C36021299}|Group_Project_Quan_Ly_Khach_San_4\\Group_Project_Quan_Ly_Khach_San_Nhom4.csproj|solutionrelative:group_project_quan_ly_khach_san_4\\phong\\dsphongview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B805DEAA-CF9C-40F5-A5E8-CE9C36021299}|Group_Project_Quan_Ly_Khach_San_4\\Group_Project_Quan_Ly_Khach_San_Nhom4.csproj|C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\group_project_quan_ly_khach_san_4\\phong\\chitietkhachsanview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B805DEAA-CF9C-40F5-A5E8-CE9C36021299}|Group_Project_Quan_Ly_Khach_San_4\\Group_Project_Quan_Ly_Khach_San_Nhom4.csproj|solutionrelative:group_project_quan_ly_khach_san_4\\phong\\chitietkhachsanview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B805DEAA-CF9C-40F5-A5E8-CE9C36021299}|Group_Project_Quan_Ly_Khach_San_4\\Group_Project_Quan_Ly_Khach_San_Nhom4.csproj|C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\group_project_quan_ly_khach_san_4\\phong\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B805DEAA-CF9C-40F5-A5E8-CE9C36021299}|Group_Project_Quan_Ly_Khach_San_4\\Group_Project_Quan_Ly_Khach_San_Nhom4.csproj|solutionrelative:group_project_quan_ly_khach_san_4\\phong\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B805DEAA-CF9C-40F5-A5E8-CE9C36021299}|Group_Project_Quan_Ly_Khach_San_4\\Group_Project_Quan_Ly_Khach_San_Nhom4.csproj|C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\group_project_quan_ly_khach_san_4\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B805DEAA-CF9C-40F5-A5E8-CE9C36021299}|Group_Project_Quan_Ly_Khach_San_4\\Group_Project_Quan_Ly_Khach_San_Nhom4.csproj|solutionrelative:group_project_quan_ly_khach_san_4\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B805DEAA-CF9C-40F5-A5E8-CE9C36021299}|Group_Project_Quan_Ly_Khach_San_4\\Group_Project_Quan_Ly_Khach_San_Nhom4.csproj|C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\group_project_quan_ly_khach_san_4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B805DEAA-CF9C-40F5-A5E8-CE9C36021299}|Group_Project_Quan_Ly_Khach_San_4\\Group_Project_Quan_Ly_Khach_San_Nhom4.csproj|solutionrelative:group_project_quan_ly_khach_san_4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DSPhongView.xaml.cs",
+              "DocumentMoniker": "C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San_4\\Phong\\DSPhongView.xaml.cs",
+              "RelativeDocumentMoniker": "Group_Project_Quan_Ly_Khach_San_4\\Phong\\DSPhongView.xaml.cs",
+              "ToolTip": "C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San_4\\Phong\\DSPhongView.xaml.cs",
+              "RelativeToolTip": "Group_Project_Quan_Ly_Khach_San_4\\Phong\\DSPhongView.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwB8AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:35:55.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DSPhongView.xaml",
+              "DocumentMoniker": "C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San_4\\Phong\\DSPhongView.xaml",
+              "RelativeDocumentMoniker": "Group_Project_Quan_Ly_Khach_San_4\\Phong\\DSPhongView.xaml",
+              "ToolTip": "C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San_4\\Phong\\DSPhongView.xaml",
+              "RelativeToolTip": "Group_Project_Quan_Ly_Khach_San_4\\Phong\\DSPhongView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-24T09:34:45.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San_4\\App.xaml",
+              "RelativeDocumentMoniker": "Group_Project_Quan_Ly_Khach_San_4\\App.xaml",
+              "ToolTip": "C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San_4\\App.xaml",
+              "RelativeToolTip": "Group_Project_Quan_Ly_Khach_San_4\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-23T13:18:09.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San_4\\App.config",
+              "RelativeDocumentMoniker": "Group_Project_Quan_Ly_Khach_San_4\\App.config",
+              "ToolTip": "C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San_4\\App.config",
+              "RelativeToolTip": "Group_Project_Quan_Ly_Khach_San_4\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-02-23T13:18:03.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChiTietKhachSanView.xaml.cs",
+              "DocumentMoniker": "C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San_4\\Phong\\ChiTietKhachSanView.xaml.cs",
+              "RelativeDocumentMoniker": "Group_Project_Quan_Ly_Khach_San_4\\Phong\\ChiTietKhachSanView.xaml.cs",
+              "ToolTip": "C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San_4\\Phong\\ChiTietKhachSanView.xaml.cs",
+              "RelativeToolTip": "Group_Project_Quan_Ly_Khach_San_4\\Phong\\ChiTietKhachSanView.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:16:42.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChiTietKhachSanView.xaml",
+              "DocumentMoniker": "C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San_4\\Phong\\ChiTietKhachSanView.xaml",
+              "RelativeDocumentMoniker": "Group_Project_Quan_Ly_Khach_San_4\\Phong\\ChiTietKhachSanView.xaml",
+              "ToolTip": "C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San_4\\Phong\\ChiTietKhachSanView.xaml",
+              "RelativeToolTip": "Group_Project_Quan_Ly_Khach_San_4\\Phong\\ChiTietKhachSanView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-23T13:13:37.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San_4\\Phong\\Room.cs",
+              "RelativeDocumentMoniker": "Group_Project_Quan_Ly_Khach_San_4\\Phong\\Room.cs",
+              "ToolTip": "C:\\All Project\\Group_Project_Quan_Ly_Khach_San\\Group_Project_Quan_Ly_Khach_San_4\\Phong\\Room.cs",
+              "RelativeToolTip": "Group_Project_Quan_Ly_Khach_San_4\\Phong\\Room.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:13:53.809Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 109,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
