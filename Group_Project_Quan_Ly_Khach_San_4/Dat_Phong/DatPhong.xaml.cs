@@ -24,5 +24,13 @@ namespace Group_Project_Quan_Ly_Khach_San_Nhom4.Dat_Phong
             InitializeComponent();
             DataContext = new DatPhongViewModel();
         }
+
+        // THÊM HÀM NÀY ĐỂ NÚT QUAY LẠI HOẠT ĐỘNG
+        private void BtnQuayLai_Click(object sender, RoutedEventArgs e)
+        {
+            // Đóng cửa sổ hiện tại để quay lại Window1 (Sơ đồ phòng)
+            this.Close();
+        }
+        
     }
 }

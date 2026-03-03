@@ -2,8 +2,8 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Group_Project_Quan_Ly_Khach_San_4"
-             StartupUri="Dat_Phong/DatPhong.xaml">
+             StartupUri="LE_TAN/LoginWindow.xaml">
     <Application.Resources>
-         
+
     </Application.Resources>
 </Application>

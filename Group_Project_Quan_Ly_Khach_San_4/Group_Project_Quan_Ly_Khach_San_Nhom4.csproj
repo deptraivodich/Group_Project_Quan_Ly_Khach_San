@@ -55,6 +55,38 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Admin\AdminDashboard.xaml.cs">
+      <DependentUpon>AdminDashboard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DanhsachDP.xaml.cs">
+      <DependentUpon>DanhsachDP.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\NhanVien.cs" />
+    <Compile Include="Admin\NhanVienForm.xaml.cs">
+      <DependentUpon>NhanVienForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\QuanLyNhanVien.xaml.cs">
+      <DependentUpon>QuanLyNhanVien.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ThanhToan\ThanhToanView.xaml.cs">
+      <DependentUpon>ThanhToanView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Admin\AdminDashboard.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Admin\DanhsachDP.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Admin\NhanVienForm.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Admin\QuanLyNhanVien.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Dat_Phong\DanhSachDatPhong.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -62,6 +94,18 @@
     <Page Include="Dat_Phong\DatPhong.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LE_TAN\DangKy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LE_TAN\LETAN.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LE_TAN\LoginWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -78,10 +122,24 @@
       <DependentUpon>DatPhong.xaml</DependentUpon>
     </Compile>
     <Compile Include="Dat_Phong\DatPhongViewModel.cs" />
+    <Compile Include="LE_TAN\Class1.cs" />
+    <Compile Include="LE_TAN\DangKy.xaml.cs">
+      <DependentUpon>DangKy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LE_TAN\LETAN.xaml.cs">
+      <DependentUpon>LETAN.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LE_TAN\LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="ThanhToan\ThanhToanView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

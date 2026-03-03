@@ -1,49 +1,56 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using Group_Project_Quan_Ly_Khach_San_4.LE_TAN;
+// Đảm bảo bạn đã thêm using namespace của Admin để gọi được AdminDashboard
+using Group_Project_Quan_Ly_Khach_San_Nhom4;
 
-namespace WpfApp1
+namespace Group_Project_Quan_Ly_Khach_San_4
 {
-    /// <summary>
-    /// Interaction logic for LoginWindow.xaml
-    /// </summary>
     public partial class LoginWindow : Window
     {
+        Class1 db = new Class1();
+
         public LoginWindow()
         {
             InitializeComponent();
         }
+
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
         {
-            string user = txtUsername.Text;
+            string user = txtUsername.Text.Trim();
             string pass = txtPassword.Password;
-            string role = (cbRole.SelectedItem as ComboBoxItem).Content.ToString();
 
-            // Giả lập kiểm tra tài khoản (Sau này bạn sẽ viết SQL SELECT ở đây)
-            if (user == "admin" && pass == "123" && role == "Admin")
+            if (string.IsNullOrEmpty(user) || string.IsNullOrEmpty(pass))
             {
-                MessageBox.Show("Chào mừng Admin!");
-                // Mở trang Admin (Bạn cần tạo Window Admin trước)
-                // AdminWindow adminWin = new AdminWindow();
-                // adminWin.Show();
-                this.Close();
+                txtError.Text = "Vui lòng nhập đầy đủ thông tin!";
+                txtError.Visibility = Visibility.Visible;
+                return;
             }
-            else if (user == "letan" && pass == "123" && role == "Lễ Tân")
+
+            string query = $"SELECT Role FROM Users WHERE Username = N'{user}' AND Password = N'{pass}'";
+            DataTable dt = db.ExecuteQuery(query);
+
+            if (dt != null && dt.Rows.Count > 0)
             {
-                MessageBox.Show("Chào mừng Lễ Tân!");
-                // Mở trang Lễ Tân (Window1 là trang bạn đã làm)
-                Window1 leTanWin = new Window1();
-                leTanWin.Show();
+                string role = dt.Rows[0]["Role"].ToString();
+
+                MessageBox.Show($"Đăng nhập thành công với quyền: {role}!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                // ===== PHẦN SỬA TRỰC TIẾP TẠI ĐÂY =====
+                if (role.Trim().Equals("Admin", StringComparison.OrdinalIgnoreCase))
+                {
+                    // Nếu là Admin -> Mở Dashboard của Admin
+                    AdminDashboard adminWin = new AdminDashboard();
+                    adminWin.Show();
+                }
+                else
+                {
+                    // Nếu không phải Admin (là Lễ tân) -> Mở Window1
+                    Window1 leTanWin = new Window1();
+                    leTanWin.Show();
+                }
+
                 this.Close();
             }
             else
@@ -52,6 +59,12 @@ namespace WpfApp1
                 txtError.Visibility = Visibility.Visible;
             }
         }
+
+        private void ShowRegister_Click(object sender, RoutedEventArgs e)
+        {
+            DangKy registerWin = new DangKy();
+            txtError.Visibility = Visibility.Collapsed;
+            registerWin.ShowDialog();
+        }
     }
 }
-

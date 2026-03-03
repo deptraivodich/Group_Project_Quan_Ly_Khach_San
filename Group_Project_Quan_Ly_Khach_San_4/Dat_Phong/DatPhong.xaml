@@ -81,6 +81,13 @@
                     Foreground="White"
                     Background="Transparent"
                     Command="{Binding OpenListCommand}"/>
+                <Button Content="Quay lại"
+                    Height="42"
+                    Margin="0,10,0,0"
+                    BorderBrush="White"
+                    Foreground="White"
+                    Background="Transparent"
+                    Command="{Binding OpenListCommand}" Click="BtnQuayLai_Click"/>
             </StackPanel>
         </Grid>
     </Grid>

@@ -1,0 +1,20 @@
+## [FILE QUY TAC CHO NHOM 4]
+
+# Bo qua thu muc cau hinh rieng cua Visual Studio
+.vs/
+
+# Bo qua cac file tam khi chay chuong trinh (Gay trung lap file)
+[Bb]in/
+[Oo]bj/
+
+# Bo qua cac file thuc thi va file rac he thong
+*.exe
+*.dll
+*.pdb
+*.suo
+*.user
+*.cache
+*.ide
+*.ide-shm
+*.ide-wal
+*.log
