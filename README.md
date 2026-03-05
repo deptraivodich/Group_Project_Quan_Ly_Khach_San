@@ -39,7 +39,7 @@ The system integrates a smart role-based access control feature, automatically a
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/NV-DuyManh/CINEMA_GROUP6.git
+https://github.com/deptraivodich/Group_Project_Quan_Ly_Khach_San.git
 ```
 
 ### 2. Initialize the database (Required):
